@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.time {
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: white;
+}
+
+.data {
+    width: 256px;
+    height: 500px;
+    position: fixed;
+    right: 0;
+    top: 150px;
+    color: white;
+    overflow-y: auto;
+}
